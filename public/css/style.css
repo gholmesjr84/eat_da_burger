@@ -1,0 +1,94 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: rgb(0, 0, 0);
+}
+
+#metal_burger {
+    display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 65px;
+    color: red;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #1a16ff;
+}
+
+.burgerEaten {
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffd1c9;
+}
+
+h2 {
+     text-align: center;
+     font-family: 'Metamorphous', cursive;
+     font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    color: red;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: rgb(194, 194, 194);
+}
+
+.addBurgerButton {
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: rgb(255, 255, 255);
+}
+
